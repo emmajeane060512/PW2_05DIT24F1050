@@ -1,0 +1,92 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color:#FFDEE2;
+    }
+    h1, h6 {
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+	  color:#893A49;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="file"],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+	  background-color: #E2B4C1;
+    }
+    .radio-group {
+      margin-top: 5px;
+	  background-color: #E2B4C1;
+    }
+    .radio-group input {
+      margin-right: 5px;
+	  background-color: #E2B4C1;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #7B1D26;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="reset"] {
+      background-color: #F9CBD6;
+    }
+    legend {
+      font-weight: bold;
+    }
+	hr{
+		height:5px;
+		background-color:#000000;
+		margin:auto;
+	}
+	#successModal .modal-content {
+		background-color: #FFE4EC;
+		border: 2px solid #FFB6C1;
+		border-radius: 20px;
+		box-shadow: 0 4px 12px rgba(255, 182, 193, 0.6);
+}
+
+#successModal .modal-header {
+		background-color: #FFB6C1; 
+		color: #FFFFF; 
+		border-bottom: none;
+		text-align: center;
+		font-weight: bold;
+}
+
+#successModal .modal-body {
+		color: #FFFFF;
+		text-align: center;
+		font-family: 'Poppins', sans-serif;
+		padding: 20px;
+}
+
+#successModal .btn-success {
+		background-color: #FF9BB0;
+		border: none;
+		color: white;
+		font-weight: bold;
+		border-radius: 12px;
+		transition: background-color 0.3s ease;
+}
+
+#successModal .btn-success:hover {
+		background-color: #FF7A98;
+}
